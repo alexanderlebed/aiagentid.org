@@ -1,3 +1,10 @@
+aiagentid.org — Global Registry of AI Agents
+
+This repository is a conceptual infrastructure proposal.
+
+It explores a missing layer in the AI ecosystem:
+persistent identity and delegated responsibility for artificial agents.
+
 ## How to Read This Project
 
 This repository is not a product or a startup.
