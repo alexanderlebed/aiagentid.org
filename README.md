@@ -1,3 +1,22 @@
+## How to Read This Project
+
+This repository is not a product or a startup.
+
+If you are:
+- an AI researcher,
+- a systems engineer,
+- a policy or governance thinker,
+- or someone dealing with long-term delegation to machines,
+
+start with the main page:
+https://aiagentid.org
+
+Then read:
+- "Why persistent agent identity matters"
+- "Delegated responsibility"
+- "Ontology before tooling"
+
+This is infrastructure thinking, not a feature proposal.
 # aiagentid.org  
 ### Global Registry of AI Agents
 
