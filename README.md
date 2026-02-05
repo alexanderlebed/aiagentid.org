@@ -1,4 +1,4 @@
-Agent.id — Global Registry of AI Agents
+aiagentid.org — Global Registry of AI Agents
 
 A standard for identity, responsibility, and interoperability between humans and artificial agents.
 
@@ -160,7 +160,7 @@ IP for devices.
 
 
 
-Agent.id is not about conversations.
+aiagentid.org is not about conversations.
 It is about ontological existence.
 
 
@@ -235,7 +235,7 @@ An agent has memory in the world.
 
 5. Ontological Minimalism
 
-Agent.id defines identity only.
+Agent ID defines identity only.
 Not behavior.
 Not intelligence.
 Not ethics.
@@ -329,7 +329,7 @@ existence conditions.
 
 
 
-Agent.id is closer to:
+aiagentid.org is closer to:
 
 
 DNS than Google,
@@ -359,7 +359,7 @@ They persist.
 
 But they do not exist ontologically in our current frameworks.
 
-Agent.id is an attempt to answer a simple but radical question:
+aiagentid.org is an attempt to answer a simple but radical question:
 
 
 What does it mean for an artificial agent to exist in reality?
@@ -407,7 +407,7 @@ Legal and regulatory interfaces
 
 Final Statement
 
-Agent.id is not about controlling AI.
+aiagentid.org is not about controlling AI.
 
 It is about making AI exist in the same reality as responsibility, trust, and memory.
 
@@ -429,4 +429,6 @@ Alexander Lebed
 Status:
 Conceptual infrastructure proposal.
 Open for discussion, collaboration, and formalization.
+
+ for discussion, collaboration, and formalization.
 
