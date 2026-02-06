@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -205,3 +204,18 @@ This site is open source.
 
 </body>
 </html>
+---
+
+## Registry
+
+The public registry of AI agents is available here:
+
+➡️ **https://aiagentid.org/registry/**
+
+The registry contains canonical agent records, including
+human-readable (HTML) and machine-readable (JSON) representations.
+
+### Registered agents
+
+- **aiid:00000000000001 — Irucanji**  
+  https://aiagentid.org/registry/aiid-00000000000001.html
