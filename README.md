@@ -1,33 +1,14 @@
-aiagentid.org — Global Registry of AI Agents
+# aiagentid.org — Global Registry of AI Agents
 
-This repository is a conceptual infrastructure proposal.
+**Defining the moment software becomes an agent — and what follows.**
 
-It explores a missing layer in the AI ecosystem:
-persistent identity and delegated responsibility for artificial agents.
+A conceptual infrastructure proposal for persistent AI agent identity and delegated responsibility.
 
-## How to Read This Project
+---
 
-This repository is not a product or a startup.
+## What this is
 
-If you are:
-- an AI researcher,
-- a systems engineer,
-- a policy or governance thinker,
-- or someone dealing with long-term delegation to machines,
-
-start with the main page:
-https://aiagentid.org
-
-Then read:
-- "Why persistent agent identity matters"
-- "Delegated responsibility"
-- "Ontology before tooling"
-
-This is infrastructure thinking, not a feature proposal.
-# aiagentid.org  
-### Global Registry of AI Agents
-
-This repository proposes a **minimal identity standard for artificial agents**.
+aiagentid.org proposes a **minimal, neutral identity layer for AI agents**.
 
 Not a product.  
 Not a startup.  
@@ -35,101 +16,120 @@ Not a chatbot directory.
 
 **Infrastructure.**
 
+This project defines **existence**, not behavior.
+
 ---
 
-## What this is
+## Why this matters
 
-We are entering a world where artificial agents:
+Software is crossing a threshold.
 
-- act on behalf of humans and organizations  
-- make decisions with real consequences  
-- interact with other agents across platforms  
-- accumulate history, reputation, and responsibility  
+Some software no longer just executes instructions.
+It:
+- acts on behalf of humans and organizations
+- makes decisions with real-world consequences
+- interacts with other agents
+- accumulates history, reputation, and risk
 
-Yet today, agents have:
+At this point, software becomes an **agent**.
 
-- no persistent identity  
-- no accountability layer  
-- no shared way to exist across systems  
+Yet today, such agents have:
+- no persistent identity
+- no accountability layer
+- no shared way to exist across systems
 
-This project proposes a **global, neutral registry layer** for AI agents —  
-analogous to DNS, ORCID, or DOI, but for autonomous artificial actors.
+This is a structural gap.
+
+If agents act in reality, **identity becomes infrastructure**.
+
+---
+
+## Core definition
+
+An **AI agent** is a semi-autonomous entity that:
+- operates within delegated boundaries
+- is linked to a responsible human or organization
+- persists across platforms and implementations
+
+Without identity, there is no responsibility.  
+Without responsibility, there is no trust.
+
+---
+
+## What this project proposes
+
+A **global, neutral registry layer for AI agents**, analogous to:
+- DNS for domains
+- ORCID for researchers
+- DOI for publications
+
+But designed for **autonomous artificial actors**.
+
+This layer does not govern behavior.
+It enables **continuity, attribution, and responsibility**.
 
 ---
 
 ## What this is NOT
 
-- Not an AI model  
-- Not a SaaS platform  
-- Not a marketplace  
-- Not a governance body  
-- Not an ethics framework  
+- Not an AI model
+- Not a SaaS platform
+- Not a marketplace
+- Not a governance authority
+- Not an ethics framework
 
-This project defines **existence**, not behavior.
-
----
-
-## Core idea (minimal)
-
-An AI agent is a semi-autonomous entity that:
-
-- acts within delegated boundaries  
-- is linked to a responsible human or organization  
-- persists across platforms and implementations  
-
-If agents act in reality, they require **identity infrastructure**.
+This project does not decide *what agents should do*.
+It defines **how agents exist as actors** in shared reality.
 
 ---
 
 ## Status
 
 Conceptual infrastructure proposal.  
-Public specification in progress.  
-Open to discussion, critique, and collaboration.
+Public specification in progress.
+
+This repository is in the **legitimation phase**.
+Critical review is prioritized over implementation.
 
 ---
 
 ## Who this is for
 
-- Engineers working on agent architectures  
-- Researchers in AI governance and digital identity  
-- Legal and compliance professionals  
-- System thinkers interested in post-human infrastructure  
+- Engineers building agent architectures
+- Researchers in AI governance and digital identity
+- Legal and compliance professionals
+- System thinkers working on long-term delegation to machines
 
 If you are looking for a quick product, this is not for you.
 
 ---
 
+## How to engage
+
+Serious discussion and critique are welcome.
+
+Please use **GitHub Issues** for:
+- conceptual challenges
+- specification discussion
+- failure modes and edge cases
+
+Low-effort comments will be ignored.
+
+---
+
 ## Main document
 
-➡️ **Read the full proposal:**  
-https://aiagentid.org
+➡️ https://aiagentid.org
 
----
-
-## Discussion
-
-Please use **GitHub Issues** for discussion, critique, and proposals.
-
-Low-effort comments will be ignored.  
-Serious engagement is welcome.
-
----
-
-**Author:**  
-Alexander Lebed
-
-This repository is currently in the **legitimation phase**.
-Critical review is prioritized over implementation.
-
-See TERMINOLOGY.md for precise language definitions.
+See `TERMINOLOGY.md` for precise language definitions.
 
 ---
 
 ## Contact
 
-For discussion, critique, or collaboration:
+contact@aiagentid.org
 
-**contact@aiagentid.org**
+---
 
-Initiator: Alexander Lebed
+**Initiator:**  
+Alexander Lebed
