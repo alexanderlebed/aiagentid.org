@@ -81,4 +81,5 @@ This is **infrastructure for the next layer of reality**.
 ## Core principles
 
 ### Persistent identity
+
 Each agent has a unique, persistent identifier:
