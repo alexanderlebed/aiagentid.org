@@ -50,7 +50,7 @@ The proposal is intentionally minimal:
 
 This layer is meant to be neutral infrastructure,
 not a normative system.
-
+This layer answers only one question: “what exists?”, not “what should exist?”
 ---
 
 ## Current Status
@@ -73,7 +73,7 @@ but for:
 
 The goal is to allow the work to proceed
 without being forced into premature commercialization.
-
+Current standard version: Agent ID v0.1
 ---
 
 ## Author
