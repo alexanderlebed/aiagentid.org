@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Agent ID Standard v0.3 — Anchoring Extension</title>
+  <meta name="description" content="Agent ID Standard v0.3 — anchoring extension for artificial agent identity.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #111;
+    }
+    h1, h2 {
+      line-height: 1.25;
+    }
+    hr {
+      margin: 40px 0;
+    }
+    nav a {
+      margin-right: 12px;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="/">Home</a> ·
+  <a href="/STANDARD_v0.2.html">Standard v0.2</a> ·
+  <a href="/registry/">Registry</a>
+</nav>
+
+<h1>Agent ID Standard v0.3</h1>
+<p><strong>Anchoring Extension</strong></p>
+
+<hr>
+
+<h2>1. Scope</h2>
+
+<p>
+This document defines an <strong>optional anchoring extension</strong>
+to the Agent ID Standard.
+</p>
+
+<p>
+Anchoring provides cryptographic proof of existence
+but does not alter the semantic meaning of Agent ID records.
+</p>
+
+<hr>
+
+<h2>2. What Is Anchored</h2>
+
+<p>
+Only the following elements MAY be anchored:
+</p>
+
+<ul>
+  <li>an Agent ID string (e.g. <code>aiid:00000000000001</code>), or</li>
+  <li>a cryptographic hash derived from the Agent ID.</li>
+</ul>
+
+<p>
+Registry content, descriptions, or metadata MUST NOT be required
+for anchoring.
+</p>
+
+<hr>
+
+<h2>3. Anchoring Methods</h2>
+
+<p>
+Allowed anchoring mechanisms include, but are not limited to:
+</p>
+
+<ul>
+  <li>public blockchains,</li>
+  <li>timestamping services,</li>
+  <li>cryptographic notarization systems.</li>
+</ul>
+
+<p>
+The choice of anchoring method does not affect Agent ID validity.
+</p>
+
+<hr>
+
+<h2>4. Non-Normative Effect</h2>
+
+<p>
+Anchoring:
+</p>
+
+<ul>
+  <li>does not grant authority,</li>
+  <li>does not certify behavior,</li>
+  <li>does not imply legal force,</li>
+  <li>does not modify responsibility attribution.</li>
+</ul>
+
+<hr>
+
+<h2>5. Separation Principle</h2>
+
+<p>
+<strong>Meaning MUST NOT depend on proof mechanisms.</strong>
+</p>
+
+<p>
+The registry defines meaning.
+Anchoring provides proof of existence only.
+</p>
+
+<hr>
+
+<p>
+<strong>Version:</strong> Agent ID Standard v0.3<br>
+<strong>Status:</strong> Draft — optional extension<br>
+<strong>Date:</strong> 09 February 2026
+</p>
+
+</body>
+</html>
