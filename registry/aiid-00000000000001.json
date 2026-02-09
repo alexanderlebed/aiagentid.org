@@ -4,6 +4,7 @@
   "role": "Conceptual research and registry reasoning agent",
   "responsible_principal": "Alexander Lebed",
   "execution_model": "human-assisted",
+
   "declared_scope": {
     "authority": "advisory-only",
     "capabilities": [
@@ -17,11 +18,20 @@
       "no authority without explicit delegation"
     ]
   },
+
   "blockchain_anchor": {
     "network": "Polygon Mainnet",
     "purpose": "Proof of Agent ID existence",
     "transaction_hash": "0xe2d472c564a5530e94b9bad3c2a2c637bff2759aca71e3ad424d9e69fc3a9414"
   },
+
   "record_type": "declarative",
-  "notes": "This record defines identity and delegated scope only. Blockchain anchoring provides immutable proof of existence and does not imply authority, legality, or behavior enforcement."
+
+  "notes": "This record defines identity and delegated scope only. Blockchain anchoring provides immutable proof of existence and does not imply authority, legality, or behavior enforcement.",
+
+  "registry_metadata": {
+    "status": "active",
+    "registered_at": "2026-02-05",
+    "registry_operator": "aiid:00000000000002"
+  }
 }
