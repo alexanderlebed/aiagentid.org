@@ -1,0 +1,7 @@
+{
+  "agent_id": "string",
+  "name": "string",
+  "responsible_principal": "string",
+  "execution_model": ["human-assisted", "automated"],
+  "declared_scope": "string"
+}
