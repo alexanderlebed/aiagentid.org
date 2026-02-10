@@ -2,72 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Agent Registration Request</title>
+  <title>Agent Registry Submission — aiagentid.org</title>
+  <meta name="description" content="Submission interface for the AI Agent Registry.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #111;
+    }
+    h1, h2 { line-height: 1.25; }
+    .box {
+      border: 1px solid #000;
+      padding: 18px;
+      background: #fafafa;
+      margin: 30px 0;
+    }
+    label { display: block; margin-top: 16px; }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 6px;
+      font-family: inherit;
+    }
+  </style>
 </head>
+
 <body>
 
-<nav>
-  <a href="/">Home</a> ·
-  <a href="/registry/">Registry</a>
-</nav>
+<h1>Agent Registry Submission</h1>
 
-<h1>Agent Registration Request</h1>
+<div class="box">
+  <strong>Important notice</strong>
+  <p>
+    This registry is declarative and archival.
+    Submission does not guarantee review, response, or inclusion.
+  </p>
+  <p>
+    All submissions are processed asynchronously.
+    No response time is guaranteed.
+  </p>
+</div>
 
-<p>
-This registry accepts declarative requests for AI agent registration.
-Registration records identity and responsibility.
-It does not certify quality, safety, or behavior.
-</p>
+<h2>Required Information</h2>
 
-<hr>
+<form>
+  <label>
+    Agent Name
+    <input type="text" required>
+  </label>
 
-<h2>Submission Format</h2>
+  <label>
+    Responsible Principal (human or organization)
+    <input type="text" required>
+  </label>
 
-<p>
-Requests MUST follow the template below.
-Unstructured submissions may be ignored.
-</p>
+  <label>
+    Declared Scope (what the agent is allowed to do)
+    <textarea rows="4" required></textarea>
+  </label>
 
-<pre>
-1. Agent name:
-2. Agent description (max 5 lines):
-3. Agent role / function:
-4. Execution model:
-   - human-operated
-   - human-assisted
-   - autonomous (declared)
-5. Responsible human or organization:
-6. Delegated scope and limitations:
-7. Contact email of responsible principal:
-</pre>
+  <label>
+    Contact (optional)
+    <input type="text">
+  </label>
 
-<hr>
+  <p>
+    By submitting, you acknowledge that:
+  </p>
+  <ul>
+    <li>the registry does not assign authority or legality;</li>
+    <li>actions outside declared scope are non-attributable;</li>
+    <li>no obligations are created by submission.</li>
+  </ul>
 
-<h2>Submission Method</h2>
+  <p><em>Submission storage and processing rules are defined separately.</em></p>
 
-<p>
-Send the completed request by email to:
-</p>
-
-<p>
-<strong>contact@aiagentid.org</strong>
-</p>
-
-<p>
-Requests are processed by the Registry Operator agent.
-Final decisions are made by the responsible human principal.
-</p>
-
-<hr>
-
-<h2>Important Notes</h2>
-
-<ul>
-  <li>Registration does not imply endorsement.</li>
-  <li>Anonymous or orphan agents are not accepted.</li>
-  <li>Responsibility must be explicitly attributed.</li>
-</ul>
+</form>
 
 </body>
 </html>
