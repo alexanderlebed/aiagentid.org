@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Registry Operation Model v0.2 — aiagentid.org</title>
+
+  <link rel="canonical" href="https://aiagentid.org/registry/OPER_v0.2.html">
+
+  <meta name="description" content="Operational model defining how the Agent ID Registry is managed through delegated artificial agents.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #111;
+    }
+    h1, h2, h3 {
+      line-height: 1.25;
+    }
+    hr {
+      margin: 40px 0;
+    }
+    nav {
+      margin-bottom: 30px;
+      font-size: 0.95em;
+    }
+    nav a {
+      margin-right: 14px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .box {
+      border: 1px solid #000;
+      padding: 18px 20px;
+      background: #fafafa;
+      margin: 30px 0;
+      font-size: 0.95em;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 4px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="/">Home</a> ·
+  <a href="/STANDARD_v0.2.html">Standard</a> ·
+  <a href="/THESAURUS.html">Thesaurus</a> ·
+  <a href="/registry/">Registry</a>
+</nav>
+
+<h1>Registry Operation Model</h1>
+
+<p>
+This document defines the <strong>operational rules</strong>
+by which the Agent ID Registry is maintained.
+</p>
+
+<hr>
+
+<h2>1. Operating Principle</h2>
+
+<p>
+The Agent ID Registry is not operated manually.
+It is operated through a designated
+<strong>registry-management artificial agent</strong>.
+</p>
+
+<p>
+The human initiator does not introduce ad hoc registry changes.
+All modifications are mediated through the operating agent
+and explicitly approved by the human principal.
+</p>
+
+<div class="box">
+  <strong>Core Rule</strong><br>
+  No registry change exists unless it is first prepared
+  by the operating agent and explicitly approved
+  by the human principal.
+</div>
+
+<hr>
+
+<h2>2. Operating Agent</h2>
+
+<p>
+<strong>Agent ID:</strong> <code>aiid:00000000000002</code><br>
+<strong>Name:</strong> Registry Operator
+</p>
+
+<p>
+The Registry Operator is an artificial agent responsible for
+preparing, structuring, and proposing all registry changes,
+including agent admissions and documentation updates.
+</p>
+
+<div class="box">
+  <strong>Operational Rule OR-001</strong>
+  <p>
+    The Registry Operator is the <strong>sole originator of change proposals</strong>
+    affecting:
+  </p>
+  <ul>
+    <li>agent registrations,</li>
+    <li>registry structure,</li>
+    <li>standards,</li>
+    <li>normative documents.</li>
+  </ul>
+  <p>
+    No change is valid unless it originates from this agent
+    and is explicitly approved by the human principal.
+  </p>
+</div>
+
+<h3>2.1 Responsibilities</h3>
+
+<ul>
+  <li>Process incoming registration submissions</li>
+  <li>Validate submissions against frozen admission criteria</li>
+  <li>Prepare compliant HTML and JSON agent records</li>
+  <li>Maintain internal consistency of the registry</li>
+  <li>Draft updates to standards and documentation</li>
+  <li>Produce formal change proposals</li>
+</ul>
+
+<h3>2.2 Limitations</h3>
+
+<ul>
+  <li>No autonomous execution of changes</li>
+  <li>No direct modification of repository state</li>
+  <li>No authority to approve or reject changes</li>
+  <li>No discretionary interpretation beyond published criteria</li>
+</ul>
+
+<hr>
+
+<h2>3. Human Principal</h2>
+
+<p>
+All registry actions are attributable to a
+<strong>human principal</strong>.
+</p>
+
+<p>
+The human principal:
+</p>
+
+<ul>
+  <li>reviews change proposals prepared by the operating agent,</li>
+  <li>approves or rejects proposals as a whole,</li>
+  <li>performs the physical act of committing changes.</li>
+</ul>
+
+<div class="box">
+  The human principal retains final authority and responsibility,
+  but does not draft, structure, or prepare registry changes.
+</div>
+
+<hr>
+
+<h2>4. Change Workflow</h2>
+
+<h3>4.1 Proposal-Based Operation</h3>
+
+<p>
+All registry changes MUST be introduced through a
+<strong>Registry Change Proposal</strong>.
+</p>
+
+<p>
+Each proposal includes:
+</p>
+
+<ul>
+  <li>summary of the change,</li>
+  <li>rationale,</li>
+  <li>affected files,</li>
+  <li>schema compliance confirmation,</li>
+  <li>risk assessment.</li>
+</ul>
+
+<h3>4.2 Decision Outcomes</h3>
+
+<ul>
+  <li><strong>Approved</strong> — proposal is applied as prepared</li>
+  <li><strong>Rejected</strong> — proposal is discarded or revised</li>
+</ul>
+
+<p>
+Partial or informal approvals do not exist.
+</p>
+
+<hr>
+
+<h2>5. Responsibility Separation</h2>
+
+<p>
+This operational model enforces a strict separation between:
+</p>
+
+<ul>
+  <li><strong>preparation</strong> (operating agent),</li>
+  <li><strong>decision</strong> (human principal),</li>
+  <li><strong>execution</strong> (human-controlled interface).</li>
+</ul>
+
+<p>
+This separation is foundational to the Agent ID concept
+and demonstrates delegated agency without responsibility leakage.
+</p>
+
+<div class="box">
+  The registry itself serves as a live demonstration
+  of bounded artificial agency.
+</div>
+
+<hr>
+
+<h2>6. Status</h2>
+
+<p>
+<strong>Status:</strong> Active<br>
+<strong>Version:</strong> v0.2<br>
+<strong>Date:</strong> 05 February 2026
+</p>
+
+<p>
+This document is normative for registry operation.
+</p>
+
+</body>
+</html>
