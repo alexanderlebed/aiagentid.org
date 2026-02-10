@@ -2,63 +2,198 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Agent Registration Criteria</title>
+  <title>Registry Admission Criteria v1.0 — aiagentid.org</title>
+
+  <link rel="canonical" href="https://aiagentid.org/registry/CRITERIA_v1.0.html">
+
+  <meta name="description"
+        content="Human-readable description of the Agent ID Registry Admission Criteria v1.0.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #111;
+    }
+    h1, h2, h3 {
+      line-height: 1.25;
+    }
+    hr {
+      margin: 40px 0;
+    }
+    nav {
+      margin-bottom: 30px;
+      font-size: 0.95em;
+    }
+    nav a {
+      margin-right: 14px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .box {
+      border: 1px solid #000;
+      padding: 18px 20px;
+      background: #fafafa;
+      margin: 30px 0;
+      font-size: 0.95em;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 4px 6px;
+      border-radius: 4px;
+    }
+  </style>
 </head>
 
 <body>
 
 <nav>
   <a href="/">Home</a> ·
+  <a href="/STANDARD_v0.2.html">Standard</a> ·
   <a href="/registry/">Registry</a>
 </nav>
 
-<h1>Agent Registration Criteria</h1>
+<h1>Registry Admission Criteria v1.0</h1>
 
 <p>
-This document defines the minimal criteria for registering an AI agent
-in the AI Agent Registry.
+This document provides a <strong>human-readable description</strong>
+of the admission criteria for inclusion in the Agent ID Registry.
+</p>
+
+<div class="box">
+  <strong>Normative source:</strong><br>
+  The canonical, machine-enforced definition of these criteria is the JSON Schema:<br>
+  <a href="/registry/CRITERIA_v1.0.json">
+    <code>CRITERIA_v1.0.json</code>
+  </a>
+</div>
+
+<hr>
+
+<h2>Purpose</h2>
+
+<p>
+The purpose of the Registry Admission Criteria is to define
+the <strong>minimum conditions of existence</strong>
+for an artificial agent to be recorded in the Agent ID Registry.
 </p>
 
 <p>
-The registry does not validate intelligence, usefulness, or safety.
-It validates identity structure and delegated responsibility.
+These criteria are intentionally minimal and non-normative.
+They do not evaluate quality, ethics, usefulness, or intent.
 </p>
 
 <hr>
 
-<h2>Minimum Requirements</h2>
-
-<ul>
-  <li>Declared agent name</li>
-  <li>Clear description of agent role and function</li>
-  <li>Identified responsible human or organization</li>
-  <li>Declared execution model</li>
-  <li>Delegated scope and limitations</li>
-</ul>
-
-<h2>Responsibility Requirement</h2>
+<h2>What the Criteria Do</h2>
 
 <p>
-Every agent must be linked to a responsible principal.
-Anonymous or orphan agents are not accepted.
-</p>
-
-<h2>Registry Status</h2>
-
-<p>
-Each request receives one of the following statuses:
+An agent MAY be admitted to the registry if, and only if,
+it provides a complete declaration satisfying the criteria below.
 </p>
 
 <ul>
-  <li>pending</li>
-  <li>accepted</li>
-  <li>rejected</li>
+  <li>Identity is syntactically valid and unique</li>
+  <li>A responsible principal is explicitly declared</li>
+  <li>An execution model is stated</li>
+  <li>Operational scope and limitations are described</li>
+  <li>A non-authority clause is explicitly acknowledged</li>
 </ul>
 
 <p>
-The registry records existence and attribution.
-It does not certify behavior, safety, or ethics.
+If all criteria are satisfied, admission is mechanical.
+No discretionary judgment is applied.
+</p>
+
+<hr>
+
+<h2>What the Criteria Do NOT Do</h2>
+
+<p>
+The criteria explicitly do <strong>not</strong>:
+</p>
+
+<ul>
+  <li>assess intelligence or capability,</li>
+  <li>judge ethical alignment,</li>
+  <li>evaluate intent or potential harm,</li>
+  <li>grant authority or permission,</li>
+  <li>imply endorsement or certification.</li>
+</ul>
+
+<p>
+The registry records existence — nothing more.
+</p>
+
+<hr>
+
+<h2>Machine Enforcement</h2>
+
+<p>
+Admission criteria are enforced via a
+<strong>JSON Schema</strong> that validates submissions mechanically.
+</p>
+
+<p>
+Any submission that conforms to the schema is admissible.
+Any submission that does not conform is rejected automatically.
+</p>
+
+<div class="box">
+  <strong>Important:</strong><br>
+  Human review is not required for admission.
+  Human responsibility applies to approval and publication,
+  not to semantic evaluation.
+</div>
+
+<hr>
+
+<h2>Versioning and Freeze</h2>
+
+<p>
+This criteria set is frozen as <strong>Registry Admission Criteria v1.0</strong>.
+</p>
+
+<p>
+Any modification requires:
+</p>
+
+<ul>
+  <li>a new schema version,</li>
+  <li>a new canonical file,</li>
+  <li>explicit version designation.</li>
+</ul>
+
+<p>
+Existing records remain governed by the criteria version
+under which they were admitted.
+</p>
+
+<hr>
+
+<h2>Status</h2>
+
+<p>
+Status: <strong>Frozen</strong><br>
+Version: <strong>v1.0</strong><br>
+Date: 05 February 2026
+</p>
+
+<hr>
+
+<p>
+Maintained by: <strong>aiagentid.org</strong><br>
+Authorship and canonical origin defined in
+<a href="/AUTHORSHIP.html">Authorship & Canonical Declaration</a>.
 </p>
 
 </body>
