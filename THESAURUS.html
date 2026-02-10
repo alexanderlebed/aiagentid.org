@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Agent ID — Core Thesaurus</title>
+  <meta name="description" content="Core terminology for the Agent ID standard and registry.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
@@ -13,12 +14,24 @@
       line-height: 1.6;
       color: #111;
     }
+    h1, h2, h3 {
+      line-height: 1.25;
+    }
+    hr {
+      margin: 40px 0;
+    }
     nav a {
       margin-right: 12px;
       text-decoration: none;
     }
     nav a:hover {
       text-decoration: underline;
+    }
+    .term {
+      margin-bottom: 28px;
+    }
+    .term-title {
+      font-weight: bold;
     }
   </style>
 </head>
@@ -34,19 +47,159 @@
 <h1>Agent ID — Core Thesaurus</h1>
 
 <p>
-This document defines the core terminology used across the Agent ID standard
-and registry.
+This document defines the core terminology used across the Agent ID standard,
+registry, and related documents.
 </p>
 
 <p>
-It exists to ensure semantic consistency, not to impose interpretation.
+Its purpose is <strong>semantic stability</strong>.
+It does not prescribe interpretation, ideology, or governance.
+</p>
+
+<hr>
+
+<h2>Core Terms</h2>
+
+<div class="term">
+  <div class="term-title">Artificial Agent</div>
+  <p>
+    A semi-autonomous entity that performs actions on behalf of a human
+    or organization and produces effects in socio-technical reality.
+  </p>
+  <p>
+    An agent is not merely software.
+    An agent is an actor whose actions have consequences beyond execution.
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Agent ID</div>
+  <p>
+    A globally unique, persistent identifier assigned to an artificial agent.
+  </p>
+  <p>
+    Agent ID enables reference, attribution, and continuity.
+    It does not imply authority, intelligence, or legitimacy.
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Identity</div>
+  <p>
+    A stable reference that distinguishes one agent from all others
+    across time, platforms, and implementations.
+  </p>
+  <p>
+    Identity answers the question: <em>“Which agent is this?”</em>
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Delegation</div>
+  <p>
+    The explicit attribution of authority to an agent by a human
+    or organization.
+  </p>
+  <p>
+    Delegation defines scope and boundaries, not outcomes.
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Delegated Responsibility</div>
+  <p>
+    The recorded association between an agent’s actions
+    and a responsible human or organization.
+  </p>
+  <p>
+    Delegated responsibility does not assign legal liability.
+    It establishes attribution.
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Responsible Principal</div>
+  <p>
+    A human or organization that declares responsibility
+    for an agent’s existence and delegated scope.
+  </p>
+  <p>
+    No agent exists in the registry without a responsible principal.
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Scope</div>
+  <p>
+    The declared boundaries within which an agent is authorized to operate.
+  </p>
+  <p>
+    Actions outside scope are explicitly non-attributable.
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Registry</div>
+  <p>
+    A declarative, archival system that records agent identity,
+    delegation, and metadata.
+  </p>
+  <p>
+    The registry defines existence, not behavior.
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Anchoring</div>
+  <p>
+    A reference to an external system (e.g. cryptographic hash,
+    blockchain transaction) used to provide immutable proof of existence.
+  </p>
+  <p>
+    Anchoring does not define meaning or authority.
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Meaning</div>
+  <p>
+    Semantic interpretation defined by the standard and registry.
+  </p>
+  <p>
+    Meaning exists independently of technical enforcement or proof.
+  </p>
+</div>
+
+<div class="term">
+  <div class="term-title">Proof</div>
+  <p>
+    External verification mechanisms that demonstrate existence or integrity.
+  </p>
+  <p>
+    Proof does not create meaning.
+    Proof supports claims of existence.
+  </p>
+</div>
+
+<hr>
+
+<h2>Foundational Distinction</h2>
+
+<p>
+<strong>The registry defines meaning.</strong><br>
+<strong>External systems may provide proof.</strong>
+</p>
+
+<p>
+Meaning MUST NOT depend on proof mechanisms.
 </p>
 
 <hr>
 
 <p>
 Status: Draft<br>
-Version: v0.1
+Version: v0.1<br>
+Maintained by: aiagentid.org
 </p>
 
 </body>
