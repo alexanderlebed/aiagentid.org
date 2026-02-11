@@ -173,6 +173,43 @@ not session or permission.
 
 <hr>
 
+<h2>3.1 Conceptual Architecture</h2>
+
+<table>
+  <tr>
+    <th>Layer</th>
+    <th>Role</th>
+    <th>Technology Examples</th>
+  </tr>
+  <tr>
+    <td>Layer 0 — Ontological Identity</td>
+    <td>Defines persistent agent existence and delegation</td>
+    <td>Agent ID Registry</td>
+  </tr>
+  <tr>
+    <td>Layer 1 — Authentication</td>
+    <td>Verifies active session</td>
+    <td>OIDC, OAuth2, Entra ID</td>
+  </tr>
+  <tr>
+    <td>Layer 2 — Authorization</td>
+    <td>Grants scoped permissions</td>
+    <td>IAM, RBAC, ABAC</td>
+  </tr>
+  <tr>
+    <td>Layer 3 — Governance</td>
+    <td>Applies compliance and policy</td>
+    <td>Enterprise policy engines</td>
+  </tr>
+</table>
+
+<p>
+Agent ID intentionally operates at <strong>Layer 0</strong> —
+a pre-authentication, pre-permission layer of declarative identity.
+</p>
+
+<hr>
+
 <h2>4. Why This Matters</h2>
 
 <p>
